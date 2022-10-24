@@ -1,0 +1,17 @@
+
+public class Main {
+
+	public static void main(String[] args) {
+		ToDoList thomas = new ToDoList("Thomas");
+		
+		ListItem mähen = new ListItem("mähen");
+		ListItem ha = new ListItem("ha");
+		
+		thomas.getItem().add(mähen);
+		thomas.getItem().add(ha);
+		
+		for(ListItem l : thomas.getItem()) {
+			System.out.println(l.getEntry());
+		}
+	}
+}
