@@ -1,0 +1,28 @@
+public class ListItem {
+	private String entry;
+	private boolean checked;
+	private ToDoList todoList;
+	
+	public ListItem(String entry) {
+		this.entry=entry;
+	}
+
+	public String getEntry() {
+		return entry;
+	}
+
+	public void setEntry(String entry) {
+		this.entry = entry;
+	}
+
+	public ToDoList getTodoList() {
+		return todoList;
+	}
+
+	public void setTodoList(ToDoList todoList) {
+		this.todoList = todoList;
+	}
+
+
+	
+}
